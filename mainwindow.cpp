@@ -93,3 +93,8 @@ void MainWindow::on_pushButton_2_clicked()
     QTextStream in(&file);
     ui->textBrowser->setText(in.readAll());
 }
+
+void MainWindow::on_treeView_7_clicked(const QModelIndex &index)
+{
+
+}

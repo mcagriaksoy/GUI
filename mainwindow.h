@@ -38,6 +38,7 @@ private slots:
 
     void on_listView_2_clicked(const QModelIndex &index);
     void on_pushButton_2_clicked();
+    void on_treeView_7_clicked(const QModelIndex &index);
 };
 
 #endif // MAINWINDOW_H
